@@ -1,7 +1,2 @@
 def simple_multiplication(number) :
-    if number % 2 == 0:
-        number *= 8
-        return number
-    else:
-        number *= 9
-        return number
+    return number * 9 if number % 2 else number * 8
